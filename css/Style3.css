@@ -1,0 +1,40 @@
+
+        .headerContainer {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background-color: tomato;
+            font-weight: bold;
+            padding: 10px;
+
+        }
+        .footerContainer {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background-color: green;
+            font-weight: bold;
+            padding: 10px;
+
+        }
+    
+ .mainContainer {
+            display: flex;
+            flex-flow: row wrap;
+            align-content: center;
+            font-weight: bold;
+
+        }
+        .mainContetItem {
+            text-align: left;
+            background-color: deepskyblue;
+        }
+        article {
+            padding: 10px;
+            margin: 10px;
+            /*border: blue;*/
+            background: aqua;
+        }
+        .sideBarLeft {
+            background: gold;
+        }

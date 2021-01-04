@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input value = "Click me" onclick="alert('Click!')" type="button">
+    <input type ="button" onclick="countRabbit()" value="Count rabbits!">
+    <input id="elem" type="button" value="Click me">
+    <script>
+        function countRabbit(){
+            for(let i=1;i<=10;i++){
+                alert("Rabbit number "+ i);
+            }
+        }
+        elem.onclick = function(){
+            alert("Thank You");
+        };
+    </script>
+</body>
+</html>
